@@ -1,0 +1,10 @@
+{
+	"name": "Twinty",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "We limit your tweets",
+	"browser_action": {
+		"default_icon": "twinty_icon.png",
+		"default_title": "You are using Twinty with Twitter"
+	}
+}
