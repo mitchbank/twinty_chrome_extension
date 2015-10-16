@@ -6,5 +6,11 @@
 	"browser_action": {
 		"default_icon": "twinty_icon.png",
 		"default_title": "You are using Twinty with Twitter"
-	}
+	},
+	"content_scripts": [
+    {
+      "matches": ["https://www.twitter.com/*"],
+      "js": ["twinty.js"]
+    }
+  ],
 }

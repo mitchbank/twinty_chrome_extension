@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // 		$('.tweet').each(function(index, value){
 // 			tweet_id = $(value).attr('data-tweet-id')
 
-// 			if !$.inArray(tweets_id_array, data) {
+// 			if !$.inArray(tweet_id, data) {
 // 				$(value).hide();
 // 			}
 // 		})
