@@ -17,5 +17,8 @@
   	"script.js",
   	"contentscript.js",
   	"twinty.html"
+  ],
+  "permissions": [
+    "http://localhost:3000/*"
   ]
 }
