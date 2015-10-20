@@ -9,8 +9,13 @@
 	},
 	"content_scripts": [
     {
-      "matches": ["https://www.twitter.com/*"],
-      "js": ["twinty.js"]
+      "matches": ["https://twitter.com/*"],
+      "js": ["contentscript.js"]
     }
   ],
+  "web_accessible_resources": [
+  	"script.js",
+  	"contentscript.js",
+  	"twinty.html"
+  ]
 }
